@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.rtl.min.css"
+    integrity="sha384-WJUUqfoMmnfkBLne5uxXj+na/c7sesSJ32gI7GfCk4zO4GthUKhSEGyvQ839BC51" crossorigin="anonymous">
+  <title>TECH Talks</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://kit.fontawesome.com/2eb6389140.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="contact.html">
+  <link rel="shortcut icon" href="mynew.jpg" type="image/x-icon">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <img src="new.jpg" alt="">
+      <a class="navbar-brand" href="#">Tech Talks</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Contact us
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="https://www.instagram.com/adarsh_gurjar_123">Instagram</a></li>
+              <li><a class="dropdown-item" href="https://www.linkedin.com/in/adarsh-gurjar-6170b0249/">linkedin</a></li>
+              <li>
+
+
+
+
+
+
+
+
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="contact.html">fill form</a></li>
+            </ul>
+          </li>
+
+        </ul>
+        <form class="d-flex mx-3" role="search">
+          <input class="form-control me-2 mx-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <div class="mx-3">
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#loginModal">Log
+            In</button>
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#signupModal">Sign
+            Up</button>
+        </div>
+
+      </div>
+    </div>
+  </nav>
+  <!-- sign in modals -->
+  <!-- Button trigger modal -->
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="loginModalLabel">Login in Tech Talks</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- sign up modals -->
+  <!-- Button trigger modal -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Get an Account</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+          <div class="mb-3 row">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3">
+                <label for="cexampleInputEmail1" class="form-label">Conform Password</label>
+                <input type="password" class="form-control" id="cexampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Creat Account</button>
+            </form>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade my-4 ">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="p7.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>there are loots of experience</h5>
+          <p>technology is best part of sucess</p>
+          <button class="btn btn-primary">technology</button>
+          <button class="btn btn-danger">web development</button>
+          <button class="btn btn-success">iteverlogy</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="newphoto.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+          <button class="btn btn-primary">technology</button>
+          <button class="btn btn-danger">web development</button>
+          <button class="btn btn-success">iteverlogy</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="ppp.JPG" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+          <button class="btn btn-primary">technology</button>
+          <button class="btn btn-danger">web development</button>
+          <button class="btn btn-success">iteverlogy</button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="row align-items-md-stretch  my-4">
+    <div class="col-md-6">
+      <div class="h-100 p-5 text-bg-dark rounded-3">
+        <h2>Technology</h2>
+        <p>Scientific innovations or technology is the most amazing thing that has ever happened to humankind. In this
+          modern world, technology is no more a luxury; it has become a necessity. Life without technology is next to
+          impossible since humans have become dependent on technological advancements. For every human activity, we need
+          a machine, and then there comes technology. It has made all our lives easier and more convenient and has also
+          made transportation, education, labour, etc., more accessible. Technological breakthroughs change from time to
+          time in today’s fast-paced, ever-changing world. However, in today’s world, technology plays a critical role
+          in strengthening a country’s economy and peop</p>
+        <button class="btn btn-outline-light" type="button">More About</button>
+      </div>
+    </div>
+    <div class="col-md-6" id="box">
+      <div class="h-100 p-5 bg-light border rounded-3">
+        <h2>Computer Science</h2>
+        <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to
+          look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's
+          content for equal-height.</p>
+        <button class="btn btn-outline-secondary" type="button">More About</button>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- image -->
+
+
+  <div class="container my-4">
+    <div class="row featurette ">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Some technologies which are in trend <span
+            class="text-muted">It’ll blow your mind.</span></h2>
+        <br>
+        <h1> BLOCKCHAINS -:</h1>
+        <p class="lead">Blockchain technology is the most discussed topic at present on different forums in the world.
+          Many of us might be familiar with this topic and its details, but there are many among us who would have heard
+          the name of this topic for the first time. It is an interesting topic and we will be discussing Blockchain,
+          its working, origin, types, pros and cons .</p>
+        <br>
+        <br>
+        <h5>
+          <p>Blockchain technology is the most discussed topic at present on different forums in the world. Many of us
+            might be familiar with this topic and its details,
+            of this topic for the first time. .</p>
+        </h5>
+      </div>
+      <div class="col-md-5">
+        <img src="block-chain-1.jpg" class="d-block w-100" alt="">
+
+      </div>
+    </div>
+    <hr class="featurette-divider">
+    <div class="row featurette " style="margin-top: 70px;">
+      <div class="col-md-7 order-md-1 my-4">
+        <h2 class="featurette-heading fw-normal lh-1">Internet Of Things <span class="text-muted">It’ll blow your
+            mind.</span></h2>
+        <br>
+        <h1> IOT -:</h1>
+        <p class="lead">There are different devices that are present around us and help in making our work easier. Some
+          of them can be operated manually by us while some work by internet. The advent of the internet in the world
+          has totally transformed our life. Earlier before the invention of the internet and its several a</p>
+        <br>
+        <br>
+        <h5>
+          <p>pplications, everything was done manually by us. This required excessive effort and was a time taking
+            process. Nowadays, the scenario has totally changed and the internet is involved in everything that we do at
+            present. Either it is shopping, traveling, entertainment, education, etc. In this way, the internet has.
+          </p>
+        </h5>
+      </div>
+      <div class="col-md-5">
+        <img src="iot.jpeg" class="d-block w-100" alt="">
+
+      </div>
+    </div>
+  </div>
+
+
+<!--  -->
+   <!-- for line break -->
+
+
+  <hr class="featurette-divider">
+
+
+
+
+
+  <div class="container">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 text-muted">About</a></li>
+            <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 text-muted">Contatct us</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="index1 copy.html" class="nav-link p-0 text-muted">My Portfolio</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-2 mb-3">
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="about.html" class="nav-link p-0 text-muted">About</a></li>
+            <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 text-muted">Contact Us</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="index1 copy.html" class="nav-link p-0 text-muted">My Portfolio</a></li>
+          </ul>
+        </div>
+
+
+
+        <div class="col-md-5 offset-md-1 mb-3">
+          <form>
+            <h5>Thankyou for wisiting our website </h5>
+            <p>Give me vote on appereance of website</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button class="btn btn-primary" type="button">Vote</Menu></button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <p>© 2022 Company, Inc. All rights reserved.</p>
+        <div class="icon">
+          <a href="https://www.facebook.com/nitin.gurjar.520357"><i class="fa-brands fa-facebook"></i>
+          </a>
+
+          <a href="https://www.instagram.com/adarsh_gurjar_123"><i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/adarsh-gurjar-6170b0249/"><i class="fa-brands fa-linkedin"></i>
+          </a>
+
+        </div>
+
+
+      </div>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

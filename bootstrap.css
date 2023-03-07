@@ -1,0 +1,27 @@
+.container
+{
+    border: 3px solid red;
+}
+.row
+{
+    border: 3px solid black;
+}
+.col-3
+{
+    border: 3px solid blue;
+}
+.col-5
+{
+    background-color: aqua;
+    border: 3px solid blue;
+}
+#menu ul
+{
+    /* display: inline-block; */
+    display: flex;
+    margin: 0;
+}
+#menu ul li{
+    text-decoration: none;
+    list-style: none;
+}
